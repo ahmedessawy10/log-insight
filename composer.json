@@ -1,5 +1,5 @@
 {
-    "name": "appssquare/log-insight",
+    "name": "ahmedessawy/log-insight",
     "description": "Secure Laravel log viewer with tags, rich filtering, error grouping, metrics dashboard and alerts.",
     "type": "library",
     "license": "MIT",

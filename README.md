@@ -9,7 +9,7 @@ Requires PHP 8.2+, Laravel 11/12/13, Livewire 3.
 ## Install
 
 ```bash
-composer require appssquare/log-insight
+composer require ahmedessawy/log-insight
 php artisan log-insight:install      # publishes config, migrates, first ingestion
 ```
 
