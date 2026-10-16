@@ -1,0 +1,43 @@
+{
+    "name": "appssquare/log-insight",
+    "description": "Secure Laravel log viewer with tags, rich filtering, error grouping, metrics dashboard and alerts.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "logs", "log-viewer", "monitoring", "livewire"],
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "illuminate/database": "^11.0|^12.0|^13.0",
+        "illuminate/console": "^11.0|^12.0|^13.0",
+        "livewire/livewire": "^3.5"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0|^11.0",
+        "phpunit/phpunit": "^11.5|^12.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LogInsight\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LogInsight\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LogInsight\\LogInsightServiceProvider"
+            ]
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    }
+}
